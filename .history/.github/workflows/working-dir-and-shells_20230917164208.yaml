@@ -1,9 +1,0 @@
-name: Working dirs & shells
-on: [push]
-jobs:
-  display-wd-info:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Display Working Directory & List files
-        run: |
-         

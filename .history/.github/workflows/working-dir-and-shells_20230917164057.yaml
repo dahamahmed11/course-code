@@ -1,3 +1,0 @@
-name: Working dirs
-on: [push]
-jobs:

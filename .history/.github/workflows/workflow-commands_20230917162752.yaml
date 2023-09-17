@@ -1,6 +1,0 @@
-name: Workflow Commands
-on: [push]
-
-jobs:
-  testing-wf-commands:
-    
