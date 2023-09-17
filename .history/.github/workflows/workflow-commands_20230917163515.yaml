@@ -12,4 +12,4 @@ jobs:
       - name: Setting a debug message with params
         run: echo "::debug::title=Error title,file=app.js,line=2,endLine=3,col=5,endcolumn=7::Missing semicolon"
       - name: Setting an warning message with params
-        run: echo "::warning::title=Error title,file=app.js,line=2,endLine=3,col=5,endcolumn=7::Missing semicolon"
+        run: echo "::error::title=Error title,file=app.js,line=2,endLine=3,col=5,endcolumn=7::Missing semicolon"
