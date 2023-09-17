@@ -1,0 +1,6 @@
+name: Working dirs & shells
+on: [push]
+jobs:
+  display-wd-info:
+    runs-on: ubuntu-latest
+    

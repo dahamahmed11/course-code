@@ -1,0 +1,4 @@
+name: Working dirs & shells
+on: [push]
+jobs:
+  display-wd-inf
